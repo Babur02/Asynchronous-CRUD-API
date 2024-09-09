@@ -20,7 +20,7 @@ import reactor.core.publisher.Mono;
 
 
 @RestController
-@RequestMapping("books")
+@RequestMapping("/books")
 public class BookController {
 
     @Autowired
